@@ -1,4 +1,4 @@
-# 🚀 YOLOv8 Real-Time Object Detection System
+# 🚀 YOLOv8 Real-Time Object Detection & Tracking System
 
 A powerful real-time Object Detection and Tracking System built using **YOLOv8**, **OpenCV**, and **Python**.
 This project detects multiple objects from a webcam feed, tracks them live, displays FPS performance, and counts detected objects in real-time.
