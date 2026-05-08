@@ -21,9 +21,9 @@ This project detects multiple objects from a webcam feed, tracks them live, disp
 * NumPy
 * Pillow
 
-## 📷 Project Output
+## Project Output
 
-![Image](https://images.openai.com/static-rsc-4/Ch9Kn-kU-A5rihuwWV6b-HV0O9l_5gryKVX7tXSQrSmonJnbevZrxC_AGkrVQRqBT8fdY4nhjxcfexHmQ1TAX7Hihex4OKY5BKwKx9Z0jfFFJMl15kqlOv1ol2Ri8ebhfp3pJiKVAA-AeXC5i7gRVj8RbKil73dcP39_qsJ9mjl5jVns3iP9yd93JTdEAiPM?purpose=fullsize)
+r"C:\Users\B VIJAYA LAKSHMI\Object Detection Yolo\Object Pic 1.jpg"
 
 ![Image](https://images.openai.com/static-rsc-4/HatZGP4KH2ftEPhRMLFgX9TP5QeNzQVrNZZIxlfolq3-ri7B68F5PMzgfhXeDlXh9cfrypEC_bgLlawwb88RSLtl8PnUQv4J2qquJ5Fz7KzFOdiINlaOnAlNXh17RAN3wszMPMf846BN5p0e3klPk3-AtXnHbgKOABCFMo1o4ynr1dt_WTuyFCFudZ01qiuY?purpose=fullsize)
 
