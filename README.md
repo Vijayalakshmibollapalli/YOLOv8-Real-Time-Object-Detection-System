@@ -83,15 +83,28 @@ The screenshot will automatically save as:
 screenshot_<timestamp>.jpg
 ```
 
+### Video Recording Feature
+
+Press:
+```bash
+R
+```
+* Starts/Stops recording
+* Output saved as:
+```
+output.avi
+```
+
 ### Future Enhancements
 
+* Future Enhancements
 * Face Recognition System
 * Vehicle Number Plate Detection
-* AI Smart Surveillance System
 * Custom YOLO Model Training
-* Motion Detection Alerts
-* Video Recording System
-* Crowd Monitoring Application
+* Smart Surveillance Alerts (Email/Sound)
+* Crowd Monitoring System
+* Web App Deployment (Streamlit/Flask)
+* Cloud Integration (AWS/GCP)
 
 ### Requirements.txt
 
@@ -101,3 +114,7 @@ opencv-python
 numpy
 pillow
 ```
+
+### Conclusion
+
+This project demonstrates the power of combining deep learning with computer vision to build intelligent real-time systems. It can be extended into advanced applications such as surveillance, traffic monitoring, and smart analytics.
