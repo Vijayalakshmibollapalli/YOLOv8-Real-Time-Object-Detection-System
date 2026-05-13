@@ -5,7 +5,15 @@ This project uses Deep Learning and Computer Vision techniques to detect, track,
 
 ### Project Overview
 
-This system captures live video from a webcam and performs real-time object detection using the YOLOv8 model from Ultralytics. The application can identify multiple objects simultaneously, draw bounding boxes around them, track detected objects, display FPS performance, and count the number of detected objects.
+This system captures live video from a webcam and performs real-time object detection using the YOLOv8 model from Ultralytics. 
+
+The application can 
+* Detect multiple objects simultaneously
+* Track objects across frames
+* Count objects dynamically
+* Display real-time FPS performance
+* Capture screenshots
+* Record processed video output
 
 ### Features
 
@@ -15,8 +23,9 @@ This system captures live video from a webcam and performs real-time object dete
 * Object Counting System
 * FPS (Frames Per Second) Monitoring
 * Screenshot Capture Feature
-* Bounding Boxes with Labels
-* High-Speed YOLOv8 Inference
+* Video Recording Functionality
+* Bounding Boxes with Labels & IDs
+* Lightweight & Fast YOLOv8 Inference
 
 ### Technologies Used
 
@@ -24,7 +33,7 @@ This system captures live video from a webcam and performs real-time object dete
 | ----------- | ---------------------- |
 | Python      | Programming Language   |
 | YOLOv8      | Object Detection Model |
-| OpenCV      | Video Processing       |
+| OpenCV      | Video Processing & UI       |
 | Ultralytics | YOLO Framework         |
 | NumPy       | Numerical Operations   |
 | Pillow      | Image Handling         |
@@ -35,18 +44,21 @@ This system captures live video from a webcam and performs real-time object dete
 
 ### Keyboard Controls
 
-| Key | Action           |
-| --- | ---------------- |
-| Q   | Quit Application |
-| S   | Save Screenshot  |
+| Key   | Action                     |
+| ----- | -------------------------- |
+| **Q** | Quit Application           |
+| **S** | Save Screenshot            |
+| **R** | Start/Stop Video Recording |
 
 ### How the System Works
 
-1. OpenCV captures live webcam frames.
-2. YOLOv8 processes each frame for object detection.
-3. Detected objects are tracked in real time.
-4. Bounding boxes and labels are displayed.
-5. FPS and object counts are updated continuously.
+1. OpenCV captures live webcam frames
+2. YOLOv8 processes each frame for object detection
+3. Objects are tracked using persistent IDs
+4. Bounding boxes and labels are drawn
+5. Object counts are calculated dynamically
+6. FPS is displayed for performance monitoring
+7. Frames are optionally saved as images or video
 
 ### Object Detection Example
 
@@ -68,7 +80,7 @@ S
 The screenshot will automatically save as:
 
 ```bash
-screenshot_timestamp.jpg
+screenshot_<timestamp>.jpg
 ```
 
 ### Future Enhancements
